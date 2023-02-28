@@ -41,7 +41,7 @@ pipeline {
                 sh '''
                     sleep 5
                     echo "This is a DEPLOY stage"
-                    exit 1
+                   exit 0
                 '''
             }
         }
